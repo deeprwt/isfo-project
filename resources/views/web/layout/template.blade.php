@@ -168,10 +168,11 @@
             </div>
             <!-- running bar code start  -->
             <div class="container">
-                <!-- <marquee behavior="scroll" direction="left" scrollamount="5">
-                    <button class="btn join-btn bg-primary m-1">showing</button><button class="btn join-btn btn-primary m-1">showing</button>
-                    <button class="btn join-btn btn-primary m-1">showing</button>
-                </marquee> -->
+                <marquee behavior="scroll" direction="left" scrollamount="5">
+                <h4 class="text-danger text-left" >
+                    Registration open. Last date of registrations is 20th october
+                 </h4>
+                </marquee>
             </div>
             <!-- running bar code end  -->
         </div>
@@ -215,8 +216,8 @@
                             <ul class="sub-menu">
                                 <li><a href="{{ url('awards-rec') }}">Awards & Recognition</a></li>
                                 <li><a href="{{ url('web/assets/pdf/process21.pdf') }}" target="_blank">Online Exam Process</a></li>
-                                <li><a href="#">Exam Instructions</a></li>
-                                <li><a href="#">Exam Process</a></li>
+                                <!-- <li><a href="#">Exam Instructions</a></li>
+                                <li><a href="#">Exam Process</a></li> -->
                                
                             </ul>
                         </li>

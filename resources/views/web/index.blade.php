@@ -3,7 +3,7 @@
 
 @endsection
 @section('main')
-<section class=" p-3 ">
+<!-- <section class=" p-3 ">
     <div class="container" >
     <br><br><br>
   <span class="p-3 ">
@@ -14,7 +14,7 @@
   </span>
    
 </div>
-</section>
+</section> -->
 <!-- Hero Start -->
 <div class="hero-section-4 section p-0 m-0" style="background-image: url(assets/images/l-effect.jpg);">
     
