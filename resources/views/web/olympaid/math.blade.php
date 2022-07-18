@@ -65,7 +65,7 @@
                            <div class="col-md-3 pb-5">
                                <ul class="list-group">
                                    <li class="list-group-item my-3 border boder-dark rounded-lg bg-light">
-                                    <a href="{{ url('web/assets/pdf/sch.pdf') }}" target="_blank">Exam Schedule </a>
+                                    <a href="{{ url('web/assets/pdf/image3a.png') }}" target="_blank">Exam Schedule </a>
                                    </li>
                                    <li class="list-group-item my-3 border boder-dark rounded-lg bg-light">
                                     <a href="{{ url('web/assets/pdf/syllabus/math.pdf') }}" target="_blank">Syllabus </a>

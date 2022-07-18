@@ -81,21 +81,24 @@
 
                 <!-- Header Wrapper Start  -->
                 <div class="header-wrapper">
-
+                      <!-- Header Logo start -->
+                <div class="header-logo d-md-none d-none d-lg-block">
+                        <a href="{{ url('/') }}" class="flex-lg-row d-flex "><img src="{{ url('web/assets/images/logo/logo.png') }}" class="img-fluid" alt="Logo"></a>
+                    </div>
+                     <!-- Header Logo End -->
                     <!-- Header Right Start -->
                     <div class="header-right">
-
+               
                     <!-- Header Meta Start -->
                     <div class="header-meta">
-
                            
-<div class="header-login-join d-none d-lg-block">
-  
-    <a class="btn join-btn" href="{{ url('login') }}">Registration</a>
-</div>
-<!-- Header Login Join End -->
-</div>
-<!-- Header Meta End -->
+                        <div class="header-login-join d-none d-lg-block">
+                        
+                            <a class="btn join-btn" href="{{ url('login') }}">Registration</a>
+                        </div>
+                        <!-- Header Login Join End -->
+                        </div>
+                        <!-- Header Meta End -->
 
                         <!-- Header Menu Start -->
                         <div class="header-menu d-none d-lg-block">
@@ -123,7 +126,7 @@
                                 <li><a href="#">More</a>
                                     <ul class="sub-menu">
                                         <li><a href="{{ url('web/assets/pdf/AWARDS.pdf') }}" target="_blank">Awards & Recognition</a></li>
-                                        <li><a href="{{ url('web/assets/pdf/process21.pdf') }}" target="_blank">Online Exam Process</a></li>
+                                        <!-- <li><a href="{{ url('web/assets/pdf/process21.pdf') }}" target="_blank">Online Exam Process</a></li> -->
                                      
                                        
                                     </ul>
@@ -159,7 +162,7 @@
 
                       <!-- Header Logo Start -->
                       <div class="header-logo ">
-                        <a href="{{ url('/') }}" class="flex-lg-row d-flex"><img src="{{ url('web/assets/images/logo/logo.png') }}" class="img-fluid" alt="Logo">&nbsp;&nbsp;  <img src="{{ url('web/assets/images/logo/euphe.jpg') }}" class="img-fluid" alt="Logo"></a>
+                        <a href="{{ url('/') }}" class="flex-lg-row d-flex"> &nbsp; <img src="{{ url('web/assets/images/logo/euphe.jpg') }}" class="img-fluid" alt="Logo">&nbsp;<img src="{{ url('web/assets/images/logo/logo.png') }}" class="img-fluid d-md-block d-block d-lg-none" alt="Logo"></a>
                     </div>
                     <!-- Header Logo End -->
                 </div>
@@ -215,7 +218,7 @@
                         <li><a href="#">More</a>
                             <ul class="sub-menu">
                                 <li><a href="{{ url('awards-rec') }}">Awards & Recognition</a></li>
-                                <li><a href="{{ url('web/assets/pdf/process21.pdf') }}" target="_blank">Online Exam Process</a></li>
+                                <!-- <li><a href="{{ url('web/assets/pdf/process21.pdf') }}" target="_blank">Online Exam Process</a></li> -->
                                 <!-- <li><a href="#">Exam Instructions</a></li>
                                 <li><a href="#">Exam Process</a></li> -->
                                
@@ -253,7 +256,7 @@
                                 193, Ganpati Enclave, Jharsa Road
                                 Gurgaon (HR) - 122001, India</p><br><br>
                             <br>
-                            <a href="mailto:info@isfo.in" class="text-light">  <i class="fa fa-envelope"></i> info@isfo.in</a>
+                            <a href="mailto:support@isfo.in" class="text-light">  <i class="fa fa-envelope"></i>&nbsp;&nbsp;support@isfo.in</a>
                         </div>
                         <div class="col-md-3 p-2">
                             <h4 class="text-white">INFORMATION</h4>
@@ -278,13 +281,13 @@
                             <hr>
   <ul class="text-white">
     <li>
-    <a  class="hvr-float-shadow" href="{{ url('web/assets/pdf/award.pdf') }}" target="_blank">Awards & Recognition  </a>
+    <a  class="hvr-float-shadow" href="{{ url('web/assets/pdf/AWARDS.pdf') }}" target="_blank">Awards & Recognition  </a>
 </li>
    <li>
-    <a  class="hvr-float-shadow" href="{{ url('web/assets/pdf/process21.pdf') }}" target="_blank">Exam Schedule</a>
+    <a  class="hvr-float-shadow" href="{{ url('web/assets/pdf/image3a.png') }}" target="_blank">Exam Schedule</a>
     
 </li>
-   <li><a href="{{ url('web/assets/pdf/StudentRegistrationProcess.pdf') }}" target="_blank" class="hvr-float-shadow" >Student Registration Process</a></li>
+   <!-- <li><a href="{{ url('web/assets/pdf/StudentRegistrationProcess.pdf') }}" target="_blank" class="hvr-float-shadow" >Student Registration Process</a></li> -->
    <li><a href="{{ url('faq') }}" class="hvr-float-shadow" >Frequently Asked Questions</a></li>
 </ul>
                         </div>
@@ -296,7 +299,7 @@
                                 A-12, 2nd Floor, Mohan Cooperative Industrial Estate, Main Mathura Road,
                                 New Delhi -110044</p>
                             <br>
-                            <a href="tel:011 61400200" class="text-light"><i class="fa fa-phone-alt"></i> &nbsp;&nbsp;011 61400200</a><br>
+                            <a href="tel:011 61400200" class="text-light"><i class="fa fa-phone"></i> &nbsp;&nbsp;011 61400200</a><br>
                             <a href="tel:011 41198254" class="text-light">Tech Support :  011 41198254</a>
                             
                         </div>

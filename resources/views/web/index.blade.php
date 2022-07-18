@@ -34,9 +34,9 @@
                 
                 <div class=" col-md-4" >
                     <!-- Features Four Item Start -->
-                    <div class="courses-subject-item color-1 text-center py-2" style="height:250px">
+                    <div class="courses-subject-item color-1 text-center" style="height:250px">
                         <div class="courses-subject-img">
-                            <a href="{{ url('science') }}"><img src="{{ url('web/assets/images/icons/sci.png') }}" alt=""></a>
+                            <a href="{{ url('science') }}"><img src="{{ url('web/assets/images/icons/science_icon.png') }}" alt=""></a>
                         </div>
                         <div class="courses-subject-content py-1">
                             <h3 class="title"><a href="{{ url('science') }}" style="line-height: 1">Science Olympiad</a></h3><br>
@@ -47,9 +47,9 @@
                 </div>
                 <div class=" col-md-4" >
                     <!-- Features Four Item Start -->
-                    <div class="courses-subject-item color-1 text-center py-2" style="height:250px">
+                    <div class="courses-subject-item color-1 text-center " style="height:250px">
                         <div class="courses-subject-img">
-                            <a href="{{ url('math') }}"><img src="{{ url('web/assets/images/icons/maths.png') }}" alt=""></a>
+                            <a href="{{ url('math') }}"><img src="{{ url('web/assets/images/icons/math_icon.png') }}" alt=""></a>
                         </div>
                         <div class="courses-subject-content py-1">
                             <h3 class="title"><a href="{{ url('math') }}" style="line-height: 1">Maths Olympiad </a></h3><br>
@@ -60,9 +60,9 @@
                 </div>
                 <div class=" col-md-4" >
                     <!-- Features Four Item Start -->
-                    <div class="courses-subject-item color-1 text-center py-2" style="height:250px">
+                    <div class="courses-subject-item color-1 text-center " style="height:250px">
                         <div class="courses-subject-img">
-                            <a href="{{ url('english') }}"><img src="{{ url('web/assets/images/icons/eo.png') }}" alt=""></a>
+                            <a href="{{ url('english') }}"><img src="{{ url('web/assets/images/icons/english_icon.png') }}" alt=""></a>
                         </div>
                         <div class="courses-subject-content py-1">
                             <h3 class="title"><a href="{{ url('english') }}" style="line-height: 1">English Olympiad</a></h3><br>
@@ -161,7 +161,7 @@
                                 </div>
                                 
                                 <div class="text-center">
-                                    <a href="{{ url('web/assets/pdf/scheme.pdf') }}" target="_blank" class="btn btn-warning rounded-lg ">Read More</a>
+                                    <a href="{{ url('scheme/gk') }}" target="_blank" class="btn btn-warning rounded-lg ">Read More</a>
                                  </div>
                             </div>
                         </div>
@@ -320,22 +320,22 @@
                 <div class="report-career-2-wrapper">
                     <div class="row">
                         <div class="col-md-4 p-2">
-                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img.jpg') }}" alt="">
+                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img-min.jpg') }}" alt="">
                         </div>
                         <div class="col-md-4 p-2">
-                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img1.jpg') }}" alt="">
+                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img1-min.jpg') }}" alt="">
                         </div>
                         <div class="col-md-4 p-2">
-                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img2.jpg') }}" alt="">
+                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img2-min.jpg') }}" alt="">
                         </div>
                         <div class="col-md-4 p-2">
-                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img3.jpg') }}" alt="">
+                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img3-min.jpg') }}" alt="">
                         </div>
                         <div class="col-md-4 p-2">
-                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img4.jpg') }}" alt="">
+                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img4-min.jpg') }}" alt="">
                         </div>
                         <div class="col-md-4 p-2">
-                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img5.jpg') }}" alt="">
+                            <img style="height: 250px" class="w-100" src="{{ url('web/assets/images/gallery/img5-min.jpg') }}" alt="">
                         </div>
 
                     </div>
